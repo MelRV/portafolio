@@ -127,7 +127,7 @@ a:hover {
 section {
     padding-top: 4vh;
     height: 96vh;
-    margin: 0 10rem;
+    margin: 0 5rem;
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -147,7 +147,6 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
-    border-radius: 20rem;
 }
 .sectionText {
     align-self: center;
@@ -217,4 +216,53 @@ section {
 }
 .btnContainer {
     gap: 1rem;
+}
+/*ABOUT*/
+
+#about {
+    position: relative;
+}
+.aboutContainer {
+    gap: 2rem;
+    margin-bottom: 2rem ;
+    margin-top: 2rem;
+}
+.about-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-containers, .about-details-container {
+    display: flex;
+}
+.about-pic {
+    border-radius: 2rem;
+}
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+.details-container {
+    padding: 3rem;
+    flex: 1;
+    background: white;
+    border-radius: 1rem;
+    border: rgb(53 53 53) 0.2rem solid;
+    border-color: rgb (163 163 163);
+    text-align: center;
+    margin-left: 10px;
+}
+.section-container {
+    gap: 3rem;
+    height: 80%;
+    display: flex;
+}
+.section_pic_container {
+    margin: auto 0;
+    display: flex;
+    max-width: 500px;
+}
+.about-pic-profile {
+    width: 100%;
 }
