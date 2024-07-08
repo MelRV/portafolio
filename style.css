@@ -266,3 +266,12 @@ section {
 .about-pic-profile {
     width: 100%;
 }
+.textContainer {
+    margin-top: 5px;
+}
+
+/*EXPERIENCE SECTION*/
+
+#experience {
+    position: relative;
+}
